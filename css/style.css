@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    /*background-color: #7D0A0A;*/
+    background-color: #490000;
+}
+
+div.section_one{
+    background-color: #FEFAE0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+div.section_two{
+    background-color: #490000;
+}
+div.section_three{
+    background-color: #FEFAE0;
+}
+
+nav{
+    font-style: italic;
+    font-size: 25px;
+    display:flex;
+    justify-content: space-between;
+    background-image: url(/images/uga_banner.jpeg);
+    background-size: auto;
+}
+
+footer{
+    background-color: #7D0A0A;
+    font-style: italic;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    border-top: 10px dotted black;
+    border-bottom: 10px dotted black;
+}
+
+h1, h2{
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+img{
+    display:block;
+    border-style: groove;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.headshot{
+    border-radius: 50%;
+}
+
+p.address{
+    display: flex;
+    justify-content: center;
+    font-family: "New Amsterdam", sans-seri;
+    font-size: 30px;
+}
+
+p.pretty_text{
+    text-align: center;
+    font-family: "New Amsterdam", sans-seri;
+    font-size: 30px;
+}
+
+dl.pretty_text{ 
+    display: block;
+    text-align: center;
+    font-family: "New Amsterdam", sans-seri;
+    font-size: 30px;
+}
+
+ul.pretty_text{
+    display: block;
+    text-align: center;
+    list-style-type: square; 
+    font-family: "New Amsterdam", sans-seri;
+    font-size: 30px;
+}
+ul.ul{
+    list-style-position: inside;
+}
+
+a:link{
+    color: #00a6fb;
+    text-decoration: none;
+}
+a:visited{
+    color: #0582ca;
+    text-decoration: none;
+}
+a:hover{
+    color: #006494;
+    text-decoration: none;
+}
+a:active{
+    color: #003554;
+    text-decoration: none;
+}
+
+.three-col{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    margin: auto;
+    width: 90%;
+}
+
+.card{
+    border-style: groove;
+    border-radius: 20px; 
+    box-shadow:  10px 12px 10px rgba(203, 0, 0, 0.77);
+    transition:0.3s;
+    background-color: #490000;
+}
+
+.card:hover{
+    box-shadow:  15px 15px 10px rgba(203, 0, 0, 0.77);
+}
+
+.one-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #B31B1B;
+}
+.white-text{
+    color: #fefae0;
+}
+
+h3{
+    text-align: center;
+}
